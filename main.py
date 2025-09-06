@@ -1,4 +1,4 @@
-import os
+, import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 from fastapi import FastAPI, File, UploadFile
@@ -14,7 +14,7 @@ from tensorflow.keras.preprocessing import image
 app = FastAPI()
 
 
-MODEL = tf.keras.models.load_model("dateClassfication.h5")
+MODEL = tf.keras.models.load_model("dateClassfication.h5", compile=False)
 CLASS_NAMES = ['Ajwa', 'Galaxy', 'Medjool', 'Meneifi', 'Nabtat Ali', 'Rutab', 'Shaishe', 'Sokari', 'Sugaey']
 
 
