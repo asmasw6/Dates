@@ -56,5 +56,5 @@ async def predict(file: UploadFile = File(...)):
    
 
 
-if __name__=="__main__":
-    uvicorn.run(app, port=8001, host='localhost')
+# if __name__=="__main__":
+# uvicorn.run(app, port=8001, host='localhost')
