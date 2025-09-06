@@ -1,3 +1,6 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 from fastapi import FastAPI, File, UploadFile
 import uvicorn
 import numpy as np
