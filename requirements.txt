@@ -1,4 +1,4 @@
-tensorflow==2.5.0
+tensorflow
 fastapi
 uvicorn
 python-multipart
@@ -6,5 +6,6 @@ pillow
 tensorflow-serving-api
 matplotlib
 numpy
+
 
 
