@@ -23,7 +23,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("saved_models/2")
+MODEL = tf.keras.models.load_model("dateClassfication.h5")
 CLASS_NAMES = ['Ajwa', 'Galaxy', 'Medjool', 'Meneifi', 'Nabtat Ali', 'Rutab', 'Shaishe', 'Sokari', 'Sugaey']
 
 
