@@ -14,7 +14,7 @@ from tensorflow.keras.preprocessing import image
 app = FastAPI()
 
 
-MODEL = tf.keras.models.load_model("dateClassfication.h5", compile=False)
+MODEL = tf.keras.models.load_model("5", compile=False) # dateClassfication.h5
 CLASS_NAMES = ['Ajwa', 'Galaxy', 'Medjool', 'Meneifi', 'Nabtat Ali', 'Rutab', 'Shaishe', 'Sokari', 'Sugaey']
 
 
